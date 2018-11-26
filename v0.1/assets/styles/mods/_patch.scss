@@ -1,0 +1,48 @@
+.__dropdownmenulist__ {
+    div {
+        div {
+            padding: 0 !important;
+            font-size: 13px !important;
+
+            div {
+                span, div {
+                    padding: 0 2px !important;
+                    line-height: 25px !important;
+                }
+            }
+        }
+    }
+}
+
+.__dropdownmenulist-small__ {
+    font-size: 13px !important;
+}
+
+.__iconmenu__, .__popovermenu__ {
+    transition: initial !important;
+    margin-top: 2px !important;
+
+    span {
+        font-size: 13px !important;
+        line-height: 25px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+
+        span {
+            width: 0 !important;
+        }
+    }
+
+    div {
+        div {
+            div {
+                padding: 0 0 !important;
+            }
+        }
+    }
+
+    hr {
+        margin: 2px 0px 2px !important;
+        background-color: #45413D !important;
+    }
+}

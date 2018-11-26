@@ -1,0 +1,43 @@
+.sorter-filter-action {
+    .btn-body {
+        margin-top: 2px;
+        margin-bottom: 4px;
+
+        button {
+            min-width: 75px !important;
+            height: 20px !important;
+            line-height: 17px !important;
+            border: 1px solid #3E474A;
+            margin-right: 5px !important;
+
+            span {
+                font-weight: 400 !important;
+                font-size: 10px !important;
+            }
+
+            svg {
+                height: 13px !important;
+                width: 13px !important;
+                margin-bottom: 3px !important;
+            }
+        }
+
+        button:nth-child(3) {
+            color: #EDC9AF !important;
+        }
+    }
+
+    .btn-selected {
+        border-color: #695E56 !important; 
+        max-height: 200px !important;
+        background-color: #452A21 !important;
+    }
+
+    .filter-body, .sorter-body {
+        border: 1px solid #453D36 !important;
+        padding: 0px 10px;
+        overflow: hidden;
+        max-height: 300px;
+        width: 214px;
+    }
+}

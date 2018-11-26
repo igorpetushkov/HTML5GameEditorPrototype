@@ -1,0 +1,15 @@
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 5px;
+  height: 5px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background:rgba(129, 65, 54, 0.5) !important;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #252526 !important;
+}

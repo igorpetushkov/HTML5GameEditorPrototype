@@ -1,0 +1,69 @@
+.branch {
+    ul {
+        overflow: initial !important;
+    }
+
+    li {
+        height: auto !important;
+        padding-bottom: 5px;
+    } 
+
+    li:hover {
+        color: #e2e2e2 !important;
+    }
+
+    .branch-opened {
+        display: block;
+    }
+
+    .branch-close {
+        display: none;
+    }
+
+    .li-item {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .li-item:hover {
+        cursor: pointer;
+    }
+
+    .li-branch:hover {
+        svg {
+            cursor: pointer;
+        }
+    }
+
+    .subbranch-1, .subbranch-2, .subbranch-3 {
+        margin-top: 5px;
+    }
+
+    .subbranch-1 {
+        margin-left: 5px;
+
+        .subbranch-2 {
+            margin-left: 10px;
+
+            .subbranch-3 {
+                margin-left: 15px;
+            }
+        }
+    }
+
+    .item-branch {
+        height: 19px !important;
+    }
+
+    .item-branch { 
+        &:hover {
+            color: #B3A58D !important;
+            cursor: pointer;
+        }
+    }
+
+    .item-nonbranch:hover {
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,1 @@
+export class PhSignal extends Phaser.Signal {}

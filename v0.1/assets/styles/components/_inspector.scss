@@ -1,0 +1,422 @@
+.inspector {
+    .input {
+        margin-left: 4px !important;
+        margin-right: 4px !important;
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+
+
+        input {
+            font-size: 13px !important;
+        }
+
+        div {
+            hr:nth-child(2) {
+                border-color: #4F4E4E !important;
+            }
+        }
+    }
+
+    .header {
+        height: 31px;
+        background-color: #333333;
+
+        span {
+            position: relative;
+        }
+
+        .input {
+            margin: 0 !important;
+            padding: 0 !important;
+            left: 6px !important;
+            top: 6px !important;
+            position: absolute !important;
+
+            width: 275px !important;
+        }
+
+        .view, .edit {
+            button {
+                position: relative !important;
+                top: 4px;
+                min-width: 50px !important;
+                height: 24px !important;
+                line-height: 18px !important;
+                border: 1px solid #3E474A;
+                float: right !important;
+                right: 5px;
+
+                span {
+                    font-weight: 400 !important;
+                    font-size: 9px !important;
+                    padding-left: 5px !important;
+                    padding-right: 5px !important;
+                }
+            }
+
+            svg {
+                width: 15px !important;
+                height: 13px !important;
+                margin-right: 3px !important;
+                margin-top: 3px !important;
+                cursor: pointer;
+            }
+
+            .tip {
+                margin-left: 2px;
+                font-size: 10px;
+                color: #969290;
+                top: -12px;
+            }
+
+            .name {
+                margin-top: 6px;
+                margin-left: 6px;
+                cursor: pointer;
+                font-size: 15px;
+                display: inline-block;
+                text-transform: uppercase;
+
+                max-width: 206px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+
+                &:hover {
+                    color: #B3A58D;
+                }
+            }
+        }
+
+        .view {
+            button {
+                color: #EDC9AF !important;
+            }
+
+            button:nth-child(3) {
+                min-width: 20px !important;
+                margin-left: 3px !important;
+
+                svg {
+                    height: 13px !important;
+                    margin-right: 1px !important;
+                    margin-top: 0 !important;
+                    margin-bottom: 1px !important;
+                }
+            }
+        }
+
+        .edit {
+            input {
+                font-size: 14px !important;
+            }
+
+            button:nth-child(3) {
+                min-width: 30px !important;
+            }
+
+            button:nth-child(2) {
+                margin-left: 3px !important;
+                min-width: 20px !important;
+
+                svg {
+                    height: 13px !important;
+                    margin-right: 1px !important;
+                    margin-top: 0 !important;
+                    margin-bottom: 1px !important;
+                }
+            }
+        }
+    }
+
+    .component {
+        background-color: #383636 !important;
+        height: 100%;
+        width: 98%;
+        margin-left: 3px;
+        margin-top: 3px;
+        padding: 4px;
+        text-align: left;
+        display: inline-block;
+
+        svg {
+            width: 15px !important;
+            height: 15px !important;
+            margin-left: 3px;
+            margin-right: 0 !important;
+            padding-right: 3px !important;
+            padding-top: 2px;
+            cursor: pointer;
+            
+        }
+
+        .label {
+            color: #C9BFBB;
+            margin-top: 3px;
+            padding-bottom: 9px !important;
+            bottom: 2px;
+            position: relative;
+            cursor: pointer;
+
+            &:hover {
+                color: #B3A58D;
+            }
+        }
+
+        .hhhh {
+            opacity: 0.5;
+        }
+
+        .disconnect-remove {
+            float: right;
+
+            button {
+                min-width: 20px !important;
+                height: 18px !important;
+                line-height: 18px !important;
+                border: 1px solid transparent;
+                margin-left: 2px !important;
+
+                &:hover {
+                    background-color: transparent !important;
+
+                    svg {
+                        fill: #BF9C60 !important;
+                    }
+                }
+            }
+
+            svg {
+                height: 13px !important;
+                margin-left: 0px !important;
+                margin-bottom: 8px !important;
+            }
+
+            div {
+                margin-bottom: 0 !important;
+                width: 18px !important;
+                display: inline-block !important;
+
+
+                div div {
+                    height: 15px !important;
+
+                    svg:nth-child(2) {
+                        fill: white !important;
+                    }
+                }
+
+                /*&:hover {
+                    div div {
+                        svg:nth-child(1), {
+                            fill: #BF9C60 !important;
+                        }
+                    }
+                }*/
+            }
+        }
+
+        .body {
+            border-top: 1px solid #4D4847;
+
+            table {
+                width: 100%;
+                height: 100%;
+
+                td {
+                    vertical-align: middle;
+                }
+            }
+
+            .dropdown {
+                display: block !important;
+                font-size: 13px !important;
+                background-color: #303030;
+                border: 1px solid #403E3E;
+                height: 25px !important;
+                top: 2px;
+                float: right;
+
+                div {
+                    div:nth-child(2) {
+                        top: -2px !important;
+                    }
+
+
+                    div:nth-child(4) {
+                        border: 0 !important;
+                    }
+                }
+            }
+
+            .dropdown-scenes,
+            .dropdown-layers,
+            .dropdown-groups {
+                width: 230px !important;
+                margin-right: 1px;
+            }
+
+            .tags-field {
+                .tags {
+                    width: 292px;
+                }
+
+                .options {
+                    svg {
+                        margin-right: 0px !important;
+                        margin-left: 0px !important;
+                        padding-right: 0px !important;
+                        padding-top: 5px !important;
+
+                        width: 13px !important;
+                        height: 13px !important;
+                    }
+                }
+
+                .add-tag {
+                    .input {
+                        border: 0 !important;
+                        margin: 0 !important;
+                        padding: 0 !important;
+                        height: 23px !important;
+                    }
+                }
+            }
+
+            .tag-label {
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 5px;
+                font-size: 13px;
+                line-height: 14px;
+                margin-top: 4px;
+
+                span {
+                    display: block;
+                }
+
+                span:nth-child(4) {
+                    margin-top: 2px;
+                }
+            }
+
+            .tag-body {
+                display: inline-block;
+            }
+
+            .input {
+                background-color: #303030 !important;
+                border: 1px solid #403E3E;
+                height: 25px !important;
+
+                div {
+                    hr {
+                        display: none;
+                    }
+                }
+            }
+
+            .input:focus { 
+                background-color: red !important; 
+            }
+
+            .base-component {
+                margin-bottom: -5px;
+            }
+
+            .transform-component {
+                margin-top: 2px;
+                
+                .input {
+                    width: 75px !important;
+                }
+
+                .dimensions {
+                    td:nth-child(2),
+                    td:nth-child(3) {
+                        float: right;
+                    }
+
+                    td:nth-child(3) {
+                        margin-right: 5px;
+                    }
+
+                    .input {
+                        margin-left: 3px;
+                    }
+                }
+
+                .position, 
+                .anchor,
+                .scale,
+                .rotation {
+                    td:nth-child(2),
+                    td:nth-child(3) {
+                        float: right;
+                    }
+
+                    td:nth-child(3) {
+                        margin-right: 37px;
+                    }
+                }
+
+                .rotation {
+                    td:nth-child(3) {
+                        margin-right: 138px;
+                    }
+                }
+            }
+
+            .texture-component {
+                .input {
+                    width: 40px !important;
+                    float: right;
+                    margin-right: 5px !important;
+                    margin-top: 2px;
+                }
+
+                .checkbox {
+                    float: right;
+                    width: 100px !important;
+                    margin-right: 77px !important;
+
+                    div {
+                        div {
+                            margin-right: 0px !important;
+                            top: 3px;
+
+                            div {
+                                svg:nth-child(2) {
+                                    fill: #e2e2e2 !important;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .dropdown-images {
+                    width: 230px !important;
+                }
+            }
+
+            .text-component {
+                margin-top: 2px;
+
+                .input {
+                    width: 218px !important;
+                    float: right;
+                }
+            }
+        }
+    }
+}
+
+.empty-msg {
+    height: 99%;
+    margin: 5px 5px 1px 5px !important;
+
+    div {
+        padding: 5px;
+        height: 100%;
+    }
+}

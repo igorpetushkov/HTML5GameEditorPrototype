@@ -1,0 +1,25 @@
+.timeline {
+    table {
+        padding: 5px;
+        width: 100%;
+
+        td {
+            border: 1px solid #403E3E;
+            padding: 5px;
+            text-align: center;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #303033;
+            }
+        }
+
+        .selected {
+            background-color: #44372e;
+
+            &:hover {
+                background-color: #44372e;
+            }
+        }
+    }
+}
