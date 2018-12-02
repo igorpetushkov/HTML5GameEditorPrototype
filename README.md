@@ -1,7 +1,7 @@
-**v0.1 - TypeScript/Redux/Electron**  
-**v0.2 - JavaScript/ES6/React/Redux/Electron**  
-**UI - Custom React UI components based on Material UI (with inline styles)**  
-**ph3 - Custom wrapper of the Phaser.js framework.**  
+_UI - Custom React UI components based on Material UI (with inline styles)_  
+_ph3 - Custom wrapper of the Phaser.js framework._  
+_v0.1 - TypeScript/Redux/Electron_  
+_v0.2 - JavaScript/ES6/React/Redux/Electron_  
 
 Hello!
 
