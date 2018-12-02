@@ -1,7 +1,7 @@
-## v0.1 folder - TypeScript/Redux/Electron
-## v0.2 folder - JavaScript/ES6/React/Redux/Electron
-## UI folder - Custom React UI components based on Material UI (with inline styles)
-## ph3 folder - Custom wrapper of the Phaser.js framework.
+**v0.1 - TypeScript/Redux/Electron**  
+**v0.2 - JavaScript/ES6/React/Redux/Electron**  
+**UI - Custom React UI components based on Material UI (with inline styles)**  
+**ph3 - Custom wrapper of the Phaser.js framework.**  
 
 Hello!
 
