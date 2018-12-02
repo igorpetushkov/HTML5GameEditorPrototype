@@ -1,3 +1,0 @@
-TypeScript/Redux/Electron
-
-Licensed under the Eclipse Public License 2.0
